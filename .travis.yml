@@ -20,7 +20,7 @@ before_install:
 
 
 scripts:
-  - docker run -e CI=true jf00/react-test npm run test
+  - docker run -e CI=true iangreen74/react-test npm run test
 
 
 
